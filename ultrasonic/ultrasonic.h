@@ -7,7 +7,7 @@
 class Ultrasonic{
 public:
     Ultrasonic(PinName trigger,PinName echo,string UnidMeasure,int time);
-    int get_measurement(void);
+    int get_measurement(void); 
     void set_SamplingTime(int time);
     void print_measurement (void);
 
